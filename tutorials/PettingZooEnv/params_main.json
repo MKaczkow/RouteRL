@@ -72,10 +72,9 @@
     {
         "simulation_timesteps" : 40,
         "seed" : "23423",
-        "sumo_type" : "sumo",
+        "sumo_type" : "sumo-gui",
         "number_of_paths" : "${path_generation_parameters.number_of_paths}",
         "env_var" : "SUMO_HOME",
-
         "sumo_config_path": "../../RouteRL/network_and_config/two_route_yield/SUMO.sumocfg",
         "paths_csv_save_path": "../../RouteRL/network_and_config/two_route_yield/paths.csv",
         "route_file_path": "../../RouteRL/network_and_config/two_route_yield/rou.rou.xml",
